@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Page application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div1">
+    <form action="/action_page.php" style="border:1px solid rgb(255, 255, 255) " id="formid">
+        <div class="container">
+          <h1 id="signup" style="text-align: center;">Sign Up</h1>
+          <br>
+         <hr id="hr">
+      
+          <label for="name"><b>Name</b></label>
+          <input id="fname" class="inpt" type="text" placeholder="Enter Name" minlength="2" name="name" required>
+
+          <label for="email"><b>Email</b></label>
+          <input id="femail" class="inpt" type="text" placeholder="Enter Email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input id="password" class="inpt" type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input id="confirmpassword" class="inpt" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+         
+          
+          
+      
+          <div class="clearfix">
+            
+            <button  id="btn"  type="submit" class="signupbtn" >Sign Up</button>
+          </div>
+        </div>
+        <p id="message"></p>
+      </form>
+    </div>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
