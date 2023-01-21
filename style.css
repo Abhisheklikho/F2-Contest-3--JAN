@@ -9,7 +9,7 @@ color: #000000;
     height: 100vh;
     width: 80vw;
     margin: auto;
-   position: relative;
+   position: absolute;
 }
  #formid{
     background-color: #ffffff;
@@ -17,8 +17,8 @@ color: #000000;
     height: 90vh;
    width: 30%;
    margin: auto;
-   position: relative;
-   top: 8%;
+   position: absolute;
+   top: 5%;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    border-radius: 20px;
  }
